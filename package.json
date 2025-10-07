@@ -1,0 +1,25 @@
+{
+  "name": "Chat-code-exporter",
+  "version": "0.1.0",
+  "description": "Exports fenced code blocks from the active chat to files.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "dev": "lms dev",
+    "test": "vitest run --reporter=dot",
+    "lint": "eslint --ext .ts src",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@lmstudio/sdk": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.6.3",
+    "vitest": "^2.0.5",
+    "eslint": "^9.11.1",
+    "@eslint/js": "^9.11.1",
+    "typescript-eslint": "^8.8.1"
+  }
+}

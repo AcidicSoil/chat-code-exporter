@@ -1,0 +1,9 @@
+{
+  "name": "Chat-code-exporter",
+  "owner": "your-hub-handle-or-org",
+  "version": "0.1.0",
+  "description": "Exports fenced code blocks from the active chat to files.",
+  "keywords": ["lmstudio", "plugin", "export", "code"],
+  "icon": "",
+  "entry": "dist/index.js"
+}
